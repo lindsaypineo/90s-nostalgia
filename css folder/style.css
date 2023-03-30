@@ -14,6 +14,102 @@ body {
 img {
     width: 100%;
 }
-.presentation {
-
+.logo {
+width: 160px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+nav >ul {
+    list-style-type: none;
+    padding-inline-start: 0%;
+    text-align: center;
+}
+nav > ul >li {
+display: inline;
+}
+
+nav a {
+    box-sizing: border-box;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-radius: 8px;
+}
+
+nav a:link {
+    background-color: purple;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    background-color: purple;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: purple;
+    border-style: solid 2px;
+    border-color: purple;
+}
+
+nav a:focus {
+    background-color: white;
+    color: purple;
+    border-style: solid 2px;
+    border-color: purple;
+}
+
+.hero {
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(/images/greatest-90s-fashion-trends.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+h1 .hero {
+    width: 75%;
+    padding-left: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    margin: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px;
+    color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .25);
+}
+.trends {
+    background-color: purple;
+}
+
+
